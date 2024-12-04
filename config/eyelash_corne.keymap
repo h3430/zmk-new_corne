@@ -45,20 +45,6 @@
         tap-ms = <30>;
     };
 
-/ {
-    macros {
-        copyme: copyme {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp Z &kp M &kp K>
-                , <&macro_release &kp LSHFT>
-                ;
-        };
-    };
-};
-
     keymap {
         compatible = "zmk,keymap";
 
