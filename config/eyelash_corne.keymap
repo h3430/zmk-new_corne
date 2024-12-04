@@ -55,7 +55,7 @@
             bindings
                 = <&macro_press &kp LSHFT>
                 , <&macro_press &kp LCTRL>
-                , <&macro_tap &kp W>
+                , <&macro_tap &kp T>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp LCTRL>
                 ;
