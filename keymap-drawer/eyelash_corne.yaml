@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - '&studio_unlock'
   - Q
   - W
   - E
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - '&studio_unlock'
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
