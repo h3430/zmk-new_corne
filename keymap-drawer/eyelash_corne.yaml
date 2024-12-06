@@ -64,8 +64,8 @@ layers:
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-shift$$
   - SYMBOL
-  - Ctl+ L
   - Ctl+ T
+  - Ctl+ L
   - PRINTSCREEN
   - VOLUME UP
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
