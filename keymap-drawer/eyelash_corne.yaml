@@ -64,7 +64,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-shift$$
   - SYMBOL
-  - Ctl+ S
+  - Ctl+ L
   - Ctl+ T
   - PRINTSCREEN
   - VOLUME UP
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+ S
   - Ctl+ PG UP
   - Ctl+ PG DN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
