@@ -64,7 +64,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-shift$$
   - SYMBOL
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+ T
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - VOLUME UP
