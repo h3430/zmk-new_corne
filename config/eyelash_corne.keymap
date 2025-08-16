@@ -53,9 +53,9 @@
             wait-ms = <40>;
             tap-ms = <60>;
             bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_press &kp LCTRL>
-                , <&macro_tap &kp T>
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp F5>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp LCTRL>
                 ;
@@ -125,7 +125,7 @@
         };
 
         layer_3 {
-            display-name = "zaza :)";
+            display-name = "555";
             bindings = <
 &kp TAB    &kp Q  &kp W      &kp E     &kp R  &kp T                              &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp LSHFT  &kp A  &kp S      &kp D     &kp F  &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
