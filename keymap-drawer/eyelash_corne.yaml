@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - PP
+  - $$mdi:play-pause$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -68,7 +68,7 @@ layers:
   - Ctl+T
   - Ctl+L
   - PRINTSCREEN
-  - VOLUME UP
+  - $$mdi:skip-next$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -83,7 +83,7 @@ layers:
   - Ctl+W
   - Ctl+C
   - Ctl+V
-  - VOLUME DOWN
+  - PREVIOUS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
