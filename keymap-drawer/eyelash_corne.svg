@@ -135,8 +135,8 @@ text.footer {
     paint-order: stroke;
 }
 
-/* styling for combo tap, and key hold/shifted label text */
-text.combo, text.hold, text.shifted {
+/* styling for combo tap, and key non-tap label text */
+text.combo, text.hold, text.shifted, text.left, text.right {
     font-size: 11px;
 }
 
@@ -150,12 +150,20 @@ text.shifted {
     dominant-baseline: hanging;
 }
 
+text.left {
+    text-anchor: start;
+}
+
+text.right {
+    text-anchor: end;
+}
+
 text.layer-activator {
     text-decoration: underline;
 }
 
 /* styling for hold/shifted label text in combo box */
-text.combo.hold, text.combo.shifted {
+text.combo.hold, text.combo.shifted, text.combo.left, text.combo.right {
     font-size: 8px;
 }
 
@@ -479,10 +487,8 @@ rect.held, rect.combo.held {
 <g transform="translate(952, 161)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#zaza-:">
-<text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-1.2em">zaza</tspan><tspan x="0" dy="1.2em">:)</tspan>
-</text>
+<a href="#x_x">
+<text x="0" y="-4" class="key tap layer-activator">555</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(224, 203)" class="key keypos-42">
@@ -611,16 +617,12 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 91)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">T</tspan>
-</text>
+<text x="0" y="-4" class="key tap">Ctl+T</text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">L</tspan>
-</text>
+<text x="0" y="-4" class="key tap">Ctl+L</text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -699,23 +701,17 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 147)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">W</tspan>
-</text>
+<text x="0" y="-4" class="key tap">Ctl+W</text>
 </g>
 <g transform="translate(196, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">C</tspan>
-</text>
+<text x="0" y="-4" class="key tap">Ctl+C</text>
 </g>
 <g transform="translate(252, 147)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">V</tspan>
-</text>
+<text x="0" y="-4" class="key tap">Ctl+V</text>
 </g>
 <g transform="translate(308, 153)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -883,22 +879,20 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 91)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">S</tspan>
-</text>
+<text x="0" y="-4" class="key tap">Ctl+S</text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em">Ctl+</tspan><tspan x="0" dy="1.2em">PG</tspan><tspan x="0" dy="1.2em">UP</tspan>
+<tspan x="0" dy="-0.6em">Ctl+PG</tspan><tspan x="0" dy="1.2em">UP</tspan>
 </text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em">Ctl+</tspan><tspan x="0" dy="1.2em">PG</tspan><tspan x="0" dy="1.2em">DN</tspan>
+<tspan x="0" dy="-0.6em">Ctl+PG</tspan><tspan x="0" dy="1.2em">DN</tspan>
 </text>
 </g>
 <g transform="translate(308, 97)" class="key none keypos-18">
@@ -980,10 +974,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 147)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#zaza-:">
-<text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-1.2em">zaza</tspan><tspan x="0" dy="1.2em">:)</tspan>
-</text>
+<a href="#x_x">
+<text x="0" y="-4" class="key tap layer-activator">555</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(308, 153)" class="key keypos-33">
@@ -1065,8 +1057,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 955)" class="layer-zaza :)">
-<text x="0" y="28" class="label" id="zaza-:">zaza :):</text>
+<g transform="translate(40, 955)" class="layer-555">
+<text x="0" y="28" class="label" id="x_x">555:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

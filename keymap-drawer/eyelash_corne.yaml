@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   <2:
   - $$mdi:keyboard-tab$$
@@ -41,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: 'zaza :)', h: toggle}
+  - {t: '555', h: toggle}
   - $$mdi:apple-keyboard-option$$
   - <3
   - $$mdi:keyboard-space$$
@@ -64,8 +65,8 @@ layers:
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-shift$$
   - :>
-  - Ctl+ T
-  - Ctl+ L
+  - Ctl+T
+  - Ctl+L
   - PRINTSCREEN
   - VOLUME UP
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -79,9 +80,9 @@ layers:
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-control$$
   - RGB OFF
-  - Ctl+ W
-  - Ctl+ C
-  - Ctl+ V
+  - Ctl+W
+  - Ctl+C
+  - Ctl+V
   - VOLUME DOWN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -113,9 +114,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - Ctl+ S
-  - Ctl+ PG UP
-  - Ctl+ PG DN
+  - Ctl+S
+  - Ctl+PG UP
+  - Ctl+PG DN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
@@ -130,7 +131,7 @@ layers:
   - OUT USB
   - '&getmeback'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: 'zaza :)', h: toggle}
+  - {t: '555', h: toggle}
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
@@ -146,7 +147,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  zaza :):
+  '555':
   - $$mdi:keyboard-tab$$
   - Q
   - W
