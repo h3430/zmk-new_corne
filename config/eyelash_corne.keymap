@@ -46,6 +46,35 @@
     };
 
     macros {
+        tty1: tty1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(F1))>;
+        };
+
+        tty2: tty2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(F2))>;
+        };
+
+        tty3: tty3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(F3))>;
+        };
+
+        tty4: tty4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(F4))>;
+        };
+        tty4: tty4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(F5))>;
+        };
+
         getmeback: getmeback {
             label = "ZM_zed_em_kay";
             compatible = "zmk,behavior-macro";
@@ -53,11 +82,16 @@
             wait-ms = <40>;
             tap-ms = <60>;
             bindings
-                = <&macro_press &kp LCTRL>
-                , <&macro_press &kp LALT>
-                , <&macro_tap &kp F5>
+                = <&macro_press &kp LSHFT>
+
+                , <&macro_press &kp LCTRL>
+
+                , <&macro_tap &kp T>
+
                 , <&macro_release &kp LSHFT>
+
                 , <&macro_release &kp LCTRL>
+
                 ;
         };
         backtab: backtab {
@@ -116,7 +150,7 @@
         raise_layer {
             display-name = ":>";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH       &kp DLLR        &kp PRCNT                           &bt BT_NXT                    &kp CARET  &kp AMPS  &kp ASTRK     &kp LPAR   &kp RPAR  &kp BSPC
+&trans  &kp EXCL      &kp AT        &kp HASH       &kp DLLR        &kp PRCNT                           &bt BT_NXT                    &tty1  &tty2  &tty3     &tty4   &tty5  &kp BSPC
 &trans  &none         &kp LC(S)     &kp LC(PG_UP)  &kp LC(PG_DN)   &none                 &bt BT_SEL 0  &bt BT_CLR  &bt BT_SEL 1         &kp LEFT   &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp BSLH  &kp GRAVE
 &trans  &out OUT_USB  &getmeback    &none          &to 3           &mkp MB5  &trans                    &bt BT_PRV                  &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC   &kp PIPE  &kp TILDE
                                     &trans         &trans          &kp SPACE                                                           &kp BSPC     &kp LSHIFT  &kp RET
