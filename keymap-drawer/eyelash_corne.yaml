@@ -101,7 +101,7 @@ layers:
   :>:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
-  - '@'
+  - '&ctrl_alt_del'
   - '#'
   - $
   - '%'
@@ -132,8 +132,8 @@ layers:
   - '&getmeback'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '555', h: toggle}
-  - '&mkp MB5'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:arrow-left-bold$$
+  - $$mdi:play-pause$$
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - _
   - +
