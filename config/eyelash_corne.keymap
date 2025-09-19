@@ -157,7 +157,7 @@
             bindings = <
 &trans  &kp EXCL      &ctrl_alt_del  &kp HASH       &kp DLLR        &kp PRCNT                           &bt BT_NXT                    &tty1  &tty2  &tty3     &tty4   &tty5  &kp BSPC
 &trans  &none         &kp LC(S)     &kp LC(PG_UP)  &kp LC(PG_DN)   &none                 &bt BT_SEL 0  &bt BT_CLR  &bt BT_SEL 1         &kp LEFT   &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &getmeback    &none          &to 3           &kp LC(LEFT)                    &bt BT_PRV                  &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC   &kp PIPE  &kp TILDE
+&trans  &out OUT_USB  &getmeback    &none          &to 3           &kp LC(LEFT)     &kp C_PP               &bt BT_PRV                  &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC   &kp PIPE  &kp TILDE
                                     &trans         &trans          &kp SPACE                                                           &kp BSPC     &kp LSHIFT  &kp RET
             >;
             sensor-bindings = <&scroll_encoder>;
