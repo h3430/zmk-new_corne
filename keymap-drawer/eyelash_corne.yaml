@@ -106,11 +106,11 @@ layers:
   - $
   - '%'
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - '&tty1'
+  - '&tty2'
+  - '&tty3'
+  - '&tty4'
+  - '&tty5'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
