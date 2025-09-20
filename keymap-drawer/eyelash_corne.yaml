@@ -84,7 +84,7 @@ layers:
   - Ctl+C
   - Ctl+V
   - PREVIOUS
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&studio_unlock'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
   - {t: '-', s: _}
