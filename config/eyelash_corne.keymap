@@ -144,7 +144,7 @@
             bindings = <
 &kp ESCAPE  &kp N1           &kp N2          &kp N3        &kp N4           &kp N5                                   &mmv MOVE_UP                         &kp N6         &kp N7      &kp N8                &kp N9                 &kp N0         &kp TAB
 &kp LSHIFT  &mo 2            &kp LC(T)       &kp LC(L)     &kp PRINTSCREEN  &kp C_NEXT             &mmv MOVE_LEFT  &mkp LCLK  &mmv MOVE_RIGHT        &kp EQUAL      &kp PLUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp GRAVE
-&kp LCTRL   &rgb_ug RGB_OFF  &kp LC(W)       &kp LC(C)     &kp LC(V)        &kp C_PREVIOUS    &trans                 &mmv MOVE_DOWN                    &kp UNDER      &kp MINUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &kp PG_DN
+&kp LCTRL   &rgb_ug RGB_OFF  &kp LC(W)       &kp LC(C)     &kp LC(V)        &kp C_PREVIOUS    &studio_unlock                 &mmv MOVE_DOWN                    &kp UNDER      &kp MINUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &kp PG_DN
                                              &kp LEFT_ALT  &trans           &kp SPACE                                                                     &kp BSPC     &kp LSHIFT  &kp RET
             >;
             sensor-bindings = <&scroll_encoder>;
